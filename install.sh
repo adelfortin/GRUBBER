@@ -48,7 +48,7 @@ function check_root() {
 }
 
 function select_theme() {
-    themes=('Vimix' 'Cyberpunk' 'Shodan' 'fallout' 'CyberRe' 'minegrub-theme' 'pleasantly' 'Quit')
+    themes=('Vimix' 'Cyberpunk' 'Shodan' 'fallout' 'CyberRe' 'minegrub-theme' 'pleasantly' 'tokyo-street' 'Quit')
 
     PS3=$(echo_prompt '\nChoose The Theme You Want: ')
     select THEME_NAME in "${themes[@]}"; do
@@ -73,6 +73,9 @@ function select_theme() {
                 break;;
             'pleasantly')
                 splash 'Installation du thème pleasantly'
+                break;;
+            'tokyo-street')
+                splash 'Installation du thème tokyo-street'
                 break;;
             'Quit')
                 echo_info 'User requested exit...!'
