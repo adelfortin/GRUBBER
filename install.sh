@@ -77,6 +77,9 @@ function select_theme() {
             'tokyo-street')
                 splash 'Installation du thème tokyo-street'
                 break;;
+            'hide')
+                splash 'Installation du thème hide'
+                break;;
             'Quit')
                 echo_info 'User requested exit...!'
                 exit 0;;
